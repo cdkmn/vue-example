@@ -10,9 +10,11 @@
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "sourceMap": true,
+    "emitDecoratorMetadata": true,
     "baseUrl": ".",
     "types": [
-      "webpack-env"
+      "webpack-env",
+      "vue-router"
     ],
     "paths": {
       "@/*": [
